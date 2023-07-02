@@ -1,9 +1,19 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import SpringBoard from '../components/SpringBoard.vue'
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <div class="spring-board">
+    <SpringBoard />
+  </div>
 </template>
+
+<style>
+@media (min-width: 1024px) {
+  .spring-board {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+}
+</style>
