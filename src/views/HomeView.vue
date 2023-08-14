@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { Navbar, NavbarLogo } from 'flowbite-vue';
 import { ROUTES } from '@/router/constants';
 </script>
 
