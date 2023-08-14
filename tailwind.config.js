@@ -5,7 +5,7 @@ export default {
     content: [
         './index.html',
         './src/App.vue',
-        './src/{pages,components}/*.{vue,js,ts,jsx,tsx}',
+        './src/{views,components}/*.{vue,js,ts,jsx,tsx}',
         'node_modules/flowbite/**/*.{js,jsx,ts,tsx}',
         'node_modules/flowbite-vue/**/*.{js,jsx,ts,tsx}',
     ],
